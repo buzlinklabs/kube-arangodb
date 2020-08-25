@@ -71,6 +71,7 @@ spec:
                             operator: In
                             values:
                               - {{ .Release.Name }}
+            nodeSelector: {{ .Values.operator.nodeSelector }}
             hostNetwork: false
             hostPID: false
             hostIPC: false

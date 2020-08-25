@@ -39,5 +39,7 @@ operator:
     base: alpine:3.11
     metricsExporter: arangodb/arangodb-exporter:0.1.7
     arango: arangodb/arangodb:latest
+
+  nodeSelector: ""
 rbac:
   enabled: true
